@@ -1,0 +1,101 @@
+/* ==============================
+   General Page Styles
+================================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; /* reset default browser margin */
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ==============================
+   Navigation
+================================= */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 15px 20px; /* padding inside nav */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ==============================
+   Main Container
+================================= */
+.container {
+  max-width: 1000px;
+  margin: 20px auto; /* centers the container */
+  padding: 20px;
+}
+
+/* ==============================
+   Intro Section
+================================= */
+.intro {
+  background-color: #fff;
+  border: 2px solid #ddd; /* border shows box model */
+  padding: 20px;          /* space inside */
+  margin-bottom: 30px;    /* space outside */
+  border-radius: 8px;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* ==============================
+   Cards
+================================= */
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;        /* space inside */
+  margin: 5px;          /* small space around */
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ==============================
+   Footer
+================================= */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
